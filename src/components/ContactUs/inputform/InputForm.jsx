@@ -6,7 +6,7 @@ import './inputForm.css'
 
 const InputForm = () => {
     return (
-        <div className='if'>
+        <div className='if' id='Location'>
             <div className='if-input'>
                 <h2>REQUEST CALL BACK</h2>
                 <p>PLEASE FILL YOUR DETAILS BELOW</p>
