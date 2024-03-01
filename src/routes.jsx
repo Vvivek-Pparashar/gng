@@ -12,25 +12,25 @@ const router = createBrowserRouter([
     errorElement: <Errorfile />,
   },
 
-  {
-    path: "/AboutUs",
-    element: <AboutUs />
-  },
+  // {
+  //   path: "/AboutUs",
+  //   element: <AboutUs />
+  // },
 
-  {
-    path: "/contactUs",
-    element: <ContactUs />
-  }, 
+  // {
+  //   path: "/contactUs",
+  //   element: <ContactUs />
+  // }, 
 
-  {
-    path: "/OurProjects",
-    element: <OurProjects />
-  }, 
+  // {
+  //   path: "/OurProjects",
+  //   element: <OurProjects />
+  // }, 
 
-  {
-    path : "/GnG-Commercial-Alenza",
-    element:<Alenza/>
-  }
+  // {
+  //   path : "/GnG-Commercial-Alenza",
+  //   element:<Alenza/>
+  // }
 
 ]);
 
