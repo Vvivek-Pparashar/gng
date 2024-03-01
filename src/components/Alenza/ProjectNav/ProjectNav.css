@@ -1,0 +1,25 @@
+.pnav{
+    width: 100%;
+    height: 70px;
+    background-color: #d8c8bd;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100000;
+    display: flex;
+    /* flex-direction: column-rev; */
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.pnav > .Link{
+    text-decoration: none;
+    color: black;
+}
+
+.pnav > .Link > p:hover{
+    text-decoration: underline;
+    /* background-color: #d8c8bd; */
+    text-decoration-color: red;
+}

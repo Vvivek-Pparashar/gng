@@ -1,0 +1,16 @@
+.features {
+    padding-block: 90px;
+    width: 100%;
+    background-color: rgb(18, 12, 12);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .f-component {
+        display: none;
+    }
+}
