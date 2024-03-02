@@ -20,16 +20,16 @@ const router = createBrowserRouter([
   // {
   //   path: "/contactUs",
   //   element: <ContactUs />
-  // }, 
+  // },
 
   // {
   //   path: "/OurProjects",
   //   element: <OurProjects />
-  // }, 
+  // },
 
   // {
-  //   path : "/GnG-Commercial-Alenza",
-  //   element:<Alenza/>
+  //   path: "/GnG-Commercial-Alenza",
+  //   element: <Alenza />
   // }
 
 ]);

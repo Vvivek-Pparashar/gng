@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-heading">
-        <h2>Faraz<sup>™</sup></h2>
+        <h2>GnG<sup>™</sup></h2>
       </div>
       <div className="footer-content">
         <div className="footer-links">
@@ -25,27 +25,27 @@ const Footer = () => {
           <h4>Social</h4>
           <p>
             <a href="#"
-              ><i className="fab fa-linkedin"></i> Linkedin</a
+            ><i className="fab fa-linkedin"></i> Linkedin</a
             >
           </p>
           <p>
             <a href="#"
-              ><i className="fab fa-twitter"></i> Twitter</a
+            ><i className="fab fa-twitter"></i> Twitter</a
             >
           </p>
           <p>
             <a href="https://github.com/farazc60"
-              ><i className="fab fa-github"></i> Github</a
+            ><i className="fab fa-github"></i> Github</a
             >
           </p>
           <p>
             <a href="https://www.facebook.com/codewithfaraz"
-              ><i className="fab fa-facebook"></i> Facebook</a
+            ><i className="fab fa-facebook"></i> Facebook</a
             >
           </p>
           <p>
             <a href="https://www.instagram.com/codewithfaraz"
-              ><i className="fab fa-instagram"></i> Instagram</a
+            ><i className="fab fa-instagram"></i> Instagram</a
             >
           </p>
         </div>
@@ -62,7 +62,7 @@ const Footer = () => {
         </div>
       </div>
       <footer>
-        <hr style={{background:"black", color:"black"}}/>
+        <hr style={{ background: "black", color: "black" }} />
         © 2022 codewithvivek.
       </footer>
     </div>

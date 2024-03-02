@@ -1,7 +1,9 @@
 .features {
     padding-block: 90px;
     width: 100%;
-    background-color: rgb(18, 12, 12);
+    background-color: #ece4d5;
+    background-color: beige;
+    /* background-color: #FFBE98; */
     display: flex;
     flex-wrap: wrap;
     align-items: center;

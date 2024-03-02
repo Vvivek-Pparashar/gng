@@ -8,18 +8,18 @@
     margin-bottom: 40px;
 }
 
-.feature-component > img {
+.feature-component>img {
     width: 90px;
 }
 
-.feature-component > h1 {
+.feature-component>h1 {
     font-size: 26px;
-    color: rgba(245, 245, 245, 0.709);
+    color: #89652B;
 }
 
 .feature-component p {
     font-size: 17px;
-    color: rgba(245, 245, 245, 0.711);
+    color: #89652B;
 }
 
 @media screen and (max-width: 600px) {
@@ -29,12 +29,10 @@
 
     .feature-component h1 {
         font-size: 25px;
-        color: rgba(245, 245, 245, 0.709);
     }
 
     .feature-component p {
         font-size: 15px;
-        color: rgba(245, 245, 245, 0.711);
     }
 }
 

@@ -18,16 +18,17 @@ export default function App() {
         <div className='hero-overlay-text'>
           <h1>LANDMARKS PLANNED <br></br>WITH PASSION </h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+          <button>Explore More</button>
         </div>
         <Crausal />
       </div>
-      <Brief/>
-      <ShowCase/>
-      <Features/>
-      <Vision/>
-      <InputForm/>
+      <Brief />
+      <ShowCase />
+      <Features />
+      <Vision />
+      <InputForm />
       <Footer />
-      <ScrollRestoration/>
+      <ScrollRestoration />
     </div>
   );
 }

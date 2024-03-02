@@ -1,15 +1,23 @@
 import { Link } from 'react-router-dom'
 import './Navbar.css'
+import { useState } from 'react';
 
 const Navbar = () => {
+    const [navBg, setNavBg] = useState(false);
+    const changeNavBg = () => {
+        window.scrollY >= 100 ? setNavBg(true) : setNavBg(false);
+    }
+
+    window.addEventListener('scroll', changeNavBg);
     return (
-        <nav>
-            <h1>navbar</h1>
-            <ul>
-                <li><Link to="/" className='Link'>Home</Link>  </li>
-                <li><Link to="/AboutUs" className='Link'>About Us</Link></li>
-                <li><Link to="/ContactUs" className='Link'>Contact Us</Link></li>
-                <li><Link to="/OurProjects" className='Link'>Our Projects</Link></li>
+        <nav className={`${navBg ? "nav-active" : ""}`}>
+            {/* <div className="logo"></div> */}
+            <h1>NavBar</h1>
+            <ul >
+                <Link to="/" className='Link'><p>Home</p></Link>
+                <Link to="/AboutUs" className='Link'><p>About Us</p></Link>
+                <Link to="/ContactUs" className='Link'><p>Contact Us</p></Link>
+                <Link to="/OurProjects" className='Link'><p>Our Projects</p></Link>
             </ul>
         </nav>
     )

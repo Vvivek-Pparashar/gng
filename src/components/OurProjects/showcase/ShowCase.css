@@ -22,7 +22,8 @@
     flex: 1;
     background-color: #d8c8bd;
     /* background-color: #a78c7b; */
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #ece4d5;
 }
 
 .op-card>img {

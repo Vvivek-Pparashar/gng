@@ -1,14 +1,36 @@
-.mySwiper{
-    height: 100%
+.mySwiper {
+  height: 100%
 }
 
-.hero-page-img {
-    width: 100vw;
-    height: 100%;
-  }
+.hero-page-img-1 {
+  width: 100vw;
+  height: 100vh;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.1)); */
+  background-image: url('../../assets/Desktop - 1.jpg');
+  background-position: -10% 50%;
+  background-size: cover;
+}
 
-  @media screen and (max-width: 600px) {
-    .hero-page-img {
-        width: 430vw;
-      }
+.hero-page-img-2 {
+  width: 100vw;
+  height: 100vh;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.1)); */
+  background-image: url('../../assets/Desktop - 2.jpg');
+  background-position: 0% 70%;
+  /* background-size: cover; */
+}
+
+.hero-page-img-3 {
+  width: 100vw;
+  height: 100vh;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.1)); */
+  background-image: url('../../assets/Desktop - 3.jpg');
+  background-position: 0% 10%;
+  /* background-size: cover; */
+}
+
+@media screen and (max-width: 600px) {
+  .hero-page-img {
+    width: 430vw;
   }
+}
