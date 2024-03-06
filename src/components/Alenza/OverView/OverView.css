@@ -64,4 +64,9 @@
   .al-ov-left > p {
     font-size: 19px;
   }
+
+  .al-ov-right > img {
+    width: 100%;
+    max-width: 600px;
+  }
 }
