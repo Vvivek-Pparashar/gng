@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Hm4 from "../../../assets/alanza.jpg";
+import Hm4 from "../../../assets/un1.png";
 import Hm5 from "../../../assets/apartments.jpg";
 
 import "./ShowCase.css";

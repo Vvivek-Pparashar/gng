@@ -1,18 +1,16 @@
 .features {
-    padding-block: 90px;
-    width: 100%;
-    background-color: #ece4d5;
-    background-color: beige;
-    /* background-color: #FFBE98; */
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    gap: 50px;
+  padding-block: 90px;
+  width: 100%;
+  background-color: beige;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
 }
 
 @media screen and (max-width: 600px) {
-    .f-component {
-        display: none;
-    }
+  .f-component {
+    display: none;
+  }
 }

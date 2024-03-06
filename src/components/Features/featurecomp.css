@@ -1,53 +1,53 @@
 .feature-component {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    min-width: 30%;
-    margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  min-width: 30%;
+  margin-bottom: 40px;
 }
 
-.feature-component>img {
-    width: 90px;
+.feature-component > img {
+  width: 90px;
 }
 
-.feature-component>h1 {
-    font-size: 26px;
-    color: #89652B;
+.feature-component > h1 {
+  font-size: 26px;
+  color: #89652b;
 }
 
 .feature-component p {
-    font-size: 17px;
-    color: #89652B;
+  font-size: 17px;
+  color: #89652b;
 }
 
 @media screen and (max-width: 600px) {
-    .feature-component img {
-        width: 70px;
-    }
+  .feature-component img {
+    width: 70px;
+  }
 
-    .feature-component h1 {
-        font-size: 25px;
-    }
+  .feature-component h1 {
+    font-size: 25px;
+  }
 
-    .feature-component p {
-        font-size: 15px;
-    }
+  .feature-component p {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width: 1084px) and (min-width: 600px) {
-    .feature-component img {
-        width: 70px;
-    }
+  .feature-component img {
+    width: 70px;
+  }
 
-    .feature-component h1 {
-        font-size: 25px;
-        color: rgba(245, 245, 245, 0.709);
-    }
+  .feature-component h1 {
+    font-size: 25px;
+    color: rgba(245, 245, 245, 0.709);
+  }
 
-    .feature-component p {
-        font-size: 15px;
-        color: rgba(245, 245, 245, 0.711);
-    }
+  .feature-component p {
+    font-size: 15px;
+    color: rgba(245, 245, 245, 0.711);
+  }
 }

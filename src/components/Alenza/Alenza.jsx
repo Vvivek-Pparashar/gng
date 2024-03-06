@@ -7,7 +7,7 @@ import ProjectNav from "./ProjectNav/ProjectNav";
 import Amenities from "./Amenities/Amenities";
 import FloorPlan from "./FloorPlan/FloorPlan";
 import OverView from "./OverView/OverView";
-import InputForm from '../ContactUs/inputform/InputForm'
+import InputForm from "../ContactUs/inputform/InputForm";
 
 const Alenza = () => {
   return (
@@ -15,11 +15,11 @@ const Alenza = () => {
       <Navbar />
       <AlenzaHeroPage />
       <ProjectNav />
-      <OverView/>
+      <OverView />
       <Amenities />
       <Gallery />
       <FloorPlan />
-      <InputForm/>
+      <InputForm />
       <Footer />
       <ScrollRestoration />
     </div>
